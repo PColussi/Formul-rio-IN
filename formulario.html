@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+
+    <body>
+        <form action="#" method="post">
+            <h1>Meu formulário</h1>
+
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br><br>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br><br>
+            <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail"><br><br>
+
+
+            <p>Selecione seus interesses:</p>
+            <ol>
+                <li><input type="checkbox" name="academia" id="academia">Academia</li>
+                <li><input type="checkbox" name="leitura" id="leitura">Leitura</li>
+                <li><input type="checkbox" name="musica" id="musica">Música</li>
+                <li><input type="checkbox" name="marvel" id="marvel">Marvel</li>
+                <li><input type="checkbox" name="ciencia" id="ciencia">Ciência</li>
+            </ol>
+
+            <p>Selecione seu gênero:</p>
+            <label for="genero_m"> Masculino
+            <input type="radio" name="genero" id="genero_m"><br><br>
+            </label>
+            <label for="genero_f"> Feminino
+            <input type="radio" name="genero" id="genero_f"><br><br>
+            </label>
+
+            <input type="submit" value="Enviar"><br><br>
+            <input type="reset" value="Limpar">
+            
+
+        </form>
+    </body>
